@@ -553,10 +553,10 @@ margin-right: 25px;
 <a href="#" class="vignette">
     <div class="image" style="background-image: url('https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Vignette2.png?v=1711556017120');"></div>
     <div class="overlay">
-        <div class="duree">04:19</div>
+
         <div class="infos">
-            <h3 class="titre">Titre de la vidéo</h3>
-            <p class="sous-titre">Sous-titre de la vidéo</p>
+            <h3 class="titre">Ad</h3>
+            <p class="sous-titre">Rudis Wrestling</p>
         </div>
     </div>
 </a>
@@ -564,10 +564,10 @@ margin-right: 25px;
 <a href="#" class="vignette">
     <div class="image" style="background-image: url('https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Vignette1.png?v=1711556003197');"></div>
     <div class="overlay">
-        <div class="duree">04:19</div>
+
         <div class="infos">
-            <h3 class="titre">Titre de la vidéo</h3>
-            <p class="sous-titre">Sous-titre de la vidéo</p>
+            <h3 class="titre">Series Doc</h3>
+            <p class="sous-titre">Team Jumbo Visma x South Fields</p>
         </div>
     </div>
 </a>
@@ -575,9 +575,9 @@ margin-right: 25px;
         <a href="#" class="vignette">
     <div class="image" style="background-image: url('https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Vignette3.png?v=1711556028148');"></div>
     <div class="overlay">
-        <div class="duree">04:19</div>
+
         <div class="infos">
-            <h3 class="titre">Titre de la vidéo</h3>
+            <h3 class="titre">Vlog</h3>
             <p class="sous-titre">Sous-titre de la vidéo</p>
         </div>
     </div>
@@ -602,9 +602,9 @@ margin-right: 25px;
 .vignette {
     position: relative;
     display: block;
-  border: solid 1px red;
-  border-radius: 22px;
-    width: 300px; /* ajuster selon vos besoins */
+  border: solid 0px transparent;
+  border-radius: 23px;
+    width: 100%; /* ajuster selon vos besoins */
     text-decoration: none; /* supprimer la décoration de lien */
 }
     
@@ -628,20 +628,25 @@ margin-right: 25px;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* couleur de fond pour l'overlay */
+    background: linear-gradient(180deg, #dd4d3303, #dd4d33);
     color: #fff;
+    border-radius: 0px 0px 22px 22px
 }
 
 .duree {
-    padding: 5px 10px;
+    padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
     font-size: 12px;
-  text-align: center;
-  background-color: red;
-  display: block;
-  max-width: 30px;
-  margin-right: 10px;
-  border-radius: 10px;
-  margin-left: auto;
+    text-align: center;
+    background-color: #1616174a;
+    display: block;
+    max-width: 30px;
+    margin-right: 10px;
+    border-radius: 6px;
+    margin-left: auto;
+    font-family: "YS2" !important;
 }
 
 .infos {
@@ -649,7 +654,7 @@ margin-right: 25px;
 }
 
 .titre {
-    font-size: 16px;
+    font-size: 22px;
     margin: 0;
       color: #fff;
   text-align: left;
@@ -657,7 +662,7 @@ margin-right: 25px;
 }
 
 .sous-titre {
-    font-size: 14px;
+    font-size: 16px;
     margin: 5px 0 0;
     color: #fff;
   text-align: left;
@@ -673,7 +678,7 @@ margin-right: 25px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 22px;
     margin-bottom: 5px;
     border-radius: 12px;
 }
