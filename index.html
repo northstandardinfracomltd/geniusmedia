@@ -534,7 +534,11 @@ margin-right: 25px;
 </script>
   
   
-    
+      <div class="Entitled">
+    <div class="title">Popular vide production works</div>
+    </div>
+  
+  
       <div class="ringen222">
         
         
@@ -549,15 +553,27 @@ margin-right: 25px;
     </div>
 </a>
 
-
-
-
-          <div class="ringenCOL1222">
-    <img class="imglog" src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/LogoIconSynergius.svg?v=1711188024878" alt="Image 1">
+<a href="#" class="vignette">
+    <div class="image" style="background-image: url('https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Capture%20d%E2%80%99e%CC%81cran%202024-03-27%20a%CC%80%2015.47.58.png?v=1711550905221');"></div>
+    <div class="overlay">
+        <div class="duree">04:19</div>
+        <div class="infos">
+            <h3 class="titre">Titre de la vidéo</h3>
+            <p class="sous-titre">Sous-titre de la vidéo</p>
+        </div>
     </div>
-                  <div class="ringenCOL1222">
-    <img class="imglog" src="https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/LogoIconSynergius.svg?v=1711188024878" alt="Image 1">
+</a>
+        
+        <a href="#" class="vignette">
+    <div class="image" style="background-image: url('https://cdn.glitch.global/265632e9-1614-48b8-8076-d1fb44326716/Capture%20d%E2%80%99e%CC%81cran%202024-03-27%20a%CC%80%2015.47.58.png?v=1711550905221');"></div>
+    <div class="overlay">
+        <div class="duree">04:19</div>
+        <div class="infos">
+            <h3 class="titre">Titre de la vidéo</h3>
+            <p class="sous-titre">Sous-titre de la vidéo</p>
+        </div>
     </div>
+</a>
     </div>
   
   <style>
@@ -568,6 +584,13 @@ margin-right: 25px;
   border-radius: 22px;
     width: 300px; /* ajuster selon vos besoins */
     text-decoration: none; /* supprimer la décoration de lien */
+}
+    
+    
+    .vignette:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .image {
@@ -590,10 +613,11 @@ margin-right: 25px;
 .duree {
     padding: 5px 10px;
     font-size: 12px;
-  text-align: right;
+  text-align: center;
   background-color: red;
   display: block;
-  max-width: 50px;
+  max-width: 30px;
+  margin-right: 10px;
   margin-left: auto;
 }
 
@@ -615,13 +639,13 @@ margin-right: 25px;
 
     
   .ringen222 {
-    background: linear-gradient(45deg, #00A8E1, #232F3E);
+    background-color: transparent;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 5px;
     margin-bottom: 5px;
     border-radius: 12px;
 }
@@ -633,8 +657,65 @@ margin-right: 25px;
     background: red;
 }
 
+    
+    .slogan-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slogan {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}
+
+.slogan img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.slogan span {
+  white-space: nowrap;
+}
+
   
   </style>
+  
+  
+  <div class="slogan-cloud">
+  <div class="slogan">
+    <img src="icon.png" alt="Icon">
+    <span>Lorem Ipsum Dolore</span>
+  </div>
+  <div class="slogan">
+    <img src="icon.png" alt="Icon">
+    <span>Consectetur Adipiscing</span>
+  </div>
+  <div class="slogan">
+    <img src="icon.png" alt="Icon">
+    <span>Sed Do Eiusmod</span>
+  </div>
+  <div class="slogan">
+    <img src="icon.png" alt="Icon">
+    <span>Tempor Incididunt Ut</span>
+  </div>
+  <div class="slogan">
+    <img src="icon.png" alt="Icon">
+    <span>Labore Et Dolore</span>
+  </div>
+  <div class="slogan">
+    <img src="icon.png" alt="Icon">
+    <span>Magna Aliqua Ut</span>
+  </div>
+</div>
+  
+  
+  
 </div>  
       <div id="popup-container">
       <div id="internalpop">
