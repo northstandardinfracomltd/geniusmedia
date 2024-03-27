@@ -533,8 +533,12 @@ margin-right: 25px;
     }
 </script>
   
+
   
-      <div class="Entitled">
+  <button id="boutonXXX">Learn more about our Video Pro Branch</button>
+<div id="contenu" class="cache">
+
+        <div class="Entitled">
     <div class="title">Taste content we crafted</div>
     </div>
   
@@ -575,8 +579,22 @@ margin-right: 25px;
     </div>
 </a>
     </div>
+  </div>
+  <script>
+    document.getElementById("boutonXXX").addEventListener("click", function() {
+  document.getElementById("contenu").classList.remove("cache");
+  this.style.display = "none";
+});
+</script>
   
   <style>
+    
+    .cache {
+  display: none;
+}
+
+    
+    
 .vignette {
     position: relative;
     display: block;
