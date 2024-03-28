@@ -127,7 +127,9 @@ format("opentype");
   
   @media only screen and (max-width: 767px){
 .content {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+   max-width: 340px;
+  gap: 0px;
 }}
 
     .grid-item {
@@ -441,23 +443,29 @@ margin-right: 25px;
   
   
   .singlet {
-    background: linear-gradient(222deg, #ff7a62, #d9472d);
-    color: #fff;
+    background-color: #161617;
+    color: #05f0ff;
     padding: 8px 15px;
     border: none;
     cursor: pointer;
     letter-spacing: -0.2px;
     border-radius: 15px !important;
-    height: 54px;
+    height: 35px;
     padding-left: 23px;
     padding-right: 23px;
-    padding-top: 9px;
+    padding-top: 6px;
     font-size: 20px;
     text-align: center;
     font-family: "YS1" !important;
     font-weight: 100;
     margin-left: auto !important;
     margin-right: auto !important;
+
+}
+  
+    .singlet:hover {
+   text-decoration: underline;
+
 }
   
 
@@ -602,8 +610,8 @@ margin-right: 25px;
     <div class="overlay">
 
         <div class="infos">
-            <h3 class="titre">Series</h3>
-            <p class="sous-titre">Sam Eckholm x Youtube Studios</p>
+            <h3 class="titre">Corporate</h3>
+            <p class="sous-titre">Reitan Retail x UnoX</p>
         </div>
     </div>
 </a>
@@ -614,8 +622,8 @@ margin-right: 25px;
     <div class="overlay">
 
         <div class="infos">
-            <h3 class="titre">Series</h3>
-            <p class="sous-titre">Sam Eckholm x Youtube Studios</p>
+            <h3 class="titre">Corporate</h3>
+            <p class="sous-titre">Reitan Retail x Rema 1000</p>
         </div>
     </div>
 </a>
@@ -669,7 +677,7 @@ margin-right: 25px;
     width: 100%;
     background: linear-gradient(180deg, #dd4d3303, #dd4d33);
     color: #fff;
-    border-radius: 0px 0px 23px 23px
+    border-radius: 0px 0px 21px 21px
 }
 
 .duree {
@@ -775,6 +783,7 @@ margin-right: 25px;
   
 </div>  
       <div id="popup-container">
+        <br> <br> 
       <div id="internalpop">
         <button id="close-btn" onclick="closePopup()">Cancel</button>
         <p class="popupTXT">Share with us your request</p>
